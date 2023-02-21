@@ -1,0 +1,950 @@
+body{
+    height: auto;
+}
+
+
+.cabecalho{
+    background-color: black; 
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.cabecalho__chamada{
+    color: #ff583d;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 1rem;
+    margin: 0;
+}
+
+.cabecalho__chamada--oportunidade{
+    color: #32cd32;
+}
+
+.cabecalho__imagem{
+    width: 50px;
+}
+
+.conteudo-principal{
+    margin: 1rem 0;
+    box-sizing: border-box;
+}
+
+.conteudo-principal__pc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
+
+.conteudo-principal__pc--chamada{
+    font-family: 'Exo', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+
+.conteudo-principal__pc--texto{
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000000;    
+    text-align: center;
+}
+
+.conteudo-principal__pc--cta{
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    padding: 1rem;
+    background-color: #32cd32; 
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.vantagens__botao--cta{
+    box-sizing: border-box;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    display: flex;
+}
+
+.vantagens__titulo--principal, .instrutor__titulo--principal, .curso-imposto-de-renda__titulo--principal, .oportunidades__titulo--principal, .valores__titulo--principal, .apresentacao-editora__titulo--principal{
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.vantagens__titulo--destaque, .instrutor__titulo--destaque, .curso-imposto-de-renda__titulo--destaque, .oportunidades__titulo--destaque, .apresentacao-editora__titulo--destaque, .confirmacao-autoridade__destaque{
+    color: #32cd32;
+}
+
+.vantagens__lista, .instrutor__lista{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.vantagens__lista--imagem{
+    height: 70px;
+    width: 50px !important;
+    align-self: center;
+    padding-top: 1rem;
+}
+
+.vantagens__lista--titulo, .instrutor__lista--titulo, .oportunidades__lista--titulo{
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.vantagens__lista--descricao, .instrutor__lista--descricao, .oportunidades__lista--descricao, .apresentacao-editora__detalhada--descricao{
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    text-align: center; 
+    padding-top: 1rem;
+}
+
+.instrutor__lista--icones, .editora__lista--icones{
+    text-align: center;
+}
+
+.vantagens__titulo, .instrutor__titulo, .curso-imposto-de-renda__titulo, .oportunidades__titulo, .apresentacao-editora__titulo, .faq__titulo{
+    background-color: #000000; 
+    margin: 1rem 0;
+}
+
+.instrutor__lista--imagem{
+    border-radius: 100% !important;
+    width: 70% !important;
+    align-self: center;
+    padding-top: 1rem;
+}
+
+.instrutor__lista--icones--inst, .instrutor__lista--icones--linkedin, .editora__lista--icones--inst, .editora__lista--icones--linkedin, .editora__lista--icones--facebook, .editora__lista--icones--tiktok{
+    font-size: 2rem;
+}
+
+.links-redes-sociais{
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+}
+
+.banner__imagem, .oportunidades__lista--imagem{
+    width: 100%;
+}
+
+.oportunidades__lista{
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
+.valores__chamada{
+    background-image: linear-gradient(180deg, #2e3091, rgba(246, 139, 32, 1));
+    width: 100%;
+    padding: 2rem 0 1rem 0;
+}
+
+.valores__chamada--destaque{
+    color: red;
+}
+
+.valores__chamada--destaque--positivo{
+    color: #32cd32;
+    font-size: 3rem;
+}
+
+.valores__chamada--introducao{
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.valores__chamada--finalizacao{
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.confirmacao-autoridade, .confirmacao-autoridade-invertido{
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 1rem 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.confirmacao-autoridade__destaque, .confirmacao-autoridade__destaque-invertido{
+    font-size: 3rem;
+}
+
+.confirmacao-autoridade-invertido{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.confirmacao-autoridade__destaque-invertido{
+    color: #F68B1F;
+}
+
+.apresentacao-editora__detalhada--banner--imagem{
+    max-width: 100%;
+}
+
+.apresentacao-editora__detalhada--descricao-completa{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.faq__titulo--destaque{
+    color: #F68B1F;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.faq__titulo--selecao{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+.faq__titulo--selecao--icon{
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+}
+
+.faq__titulo--selecao--text{
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color:#FFFFFF;
+    display: inline-block;
+    border-bottom: 3px solid #F68B1F;
+}
+
+.faq__detalhado{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.faq__detalhado--duvidas-frequentes{
+    row-gap: 0.5rem;
+}
+
+.faq__detalhado--duvidas-frequentes--item{
+    background-color: #F68B1F !important;
+    font-family: 'Exo', sans-serif;
+    border-radius: 20px !important;
+}
+
+.faq__detalhado--duvidas-frequentes--item--titulo{
+    font-weight: 700;
+    color: #000000 !important;
+}
+
+.faq__detalhado--duvidas-frequentes--item--descricao{
+    font-weight: 300;
+    color: #FFFFFF !important;
+}
+
+.faq__detalhado--duvidas-frequentes--item--par{
+    background-color: #000000 !important;
+    font-family: 'Exo', sans-serif;
+    border-radius: 20px !important;
+}
+
+.faq__detalhado--duvidas-frequentes--item--titulo--par{
+    font-weight: 700;
+    color: #F68B1F !important;
+}
+
+.rodape{
+    padding: 2rem 0 0.5rem 0;
+    background-color: #000000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__titulo{
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    margin-left: 1rem;
+    color: #FFFFFF;
+}
+
+.rodape__formulario{
+    background-color: #F68B1F;
+    margin: 1rem;
+    box-sizing: border-box;
+    border-radius: 20px !important;
+}
+
+.rodape__formulario--form{
+    padding: 0 0.5rem 1rem 0.5rem;
+    margin-top: 0 !important;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+
+.rodape__formulario--botao--divisao{
+    display: flex !important;
+    justify-content: center;
+}
+
+.rodape__direitos-autorais{
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    padding: 1rem 1rem 0 1rem;
+}
+
+@media screen and (min-width: 360px){
+
+    .cabecalho{
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        row-gap: 0.5rem;
+    }
+
+    .cabecalho__imagem{
+        width: 70px;
+    }
+
+    .valores__chamada--introducao{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 390px){
+
+    .cabecalho{
+        row-gap: 0.25rem;
+    }
+
+    .cabecalho__chamada{
+        font-size: 14px;
+    }
+
+    .cabecalho__imagem{
+        width: 90px;
+    }
+
+    .valores__chamada--introducao{
+        font-size: 1rem;
+    }
+
+    .valores__chamada--finalizacao{
+        font-size: 18px;
+    }
+
+    .conteudo-principal__pc--cta{
+        font-size: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-radius: 2rem;
+    }
+    
+    .curso-imposto-de-renda__lista{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 412px){
+
+    .conteudo-principal__pc{
+        row-gap: 0.5rem;
+    }
+
+    .cabecalho{
+        padding-bottom: 0;
+    }
+
+    .cabecalho__imagem{
+        width: 120px;
+    }
+
+    .conteudo-principal__pc--texto{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .instrutor__lista--icones{
+        padding-top: 0 !important;
+    }
+
+    .confirmacao-autoridade{
+        padding-bottom: 1.75rem;
+    }
+
+    .confirmacao-autoridade-invertido{
+        padding-bottom: 1.75rem;
+    }
+
+    .vantagens__botao--cta{
+        margin-top: 0.5rem;
+    }
+
+    .apresentacao-editora__titulo{
+        margin-bottom: 0.5rem;
+    }
+
+    .vantagens__titulo--principal, .instrutor__titulo--principal, .curso-imposto-de-renda__titulo--principal, .oportunidades__titulo--principal, .valores__titulo--principal, .apresentacao-editora__titulo--principal{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .editora__lista--icones{
+        column-gap: 1rem !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .faq__titulo--selecao--icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .faq__titulo--selecao--text{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 540px){
+
+    .cabecalho__imagem{
+        width: 140px;
+    }
+
+    .cabecalho__chamada{
+        font-size: 1rem;
+    }
+
+    .conteudo-principal{
+        margin-top: 1.5rem;
+    }
+
+    .conteudo-principal__pc{
+        row-gap: 1rem;
+    }
+
+    .conteudo-principal__pc--texto{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .conteudo-principal__pc--cta{
+        width: 80%;
+    }
+
+    .conteudo-principal__pc--cta{
+        margin-top: 0.5rem;
+        font-size: 20px;
+    }
+
+    .vantagens__titulo--principal, .instrutor__titulo--principal, .curso-imposto-de-renda__titulo--principal, .oportunidades__titulo--principal, .valores__titulo--principal, .apresentacao-editora__titulo--principal{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-size: 2rem;
+    }
+
+    .vantagens__lista, .instrutor__lista, .curso-imposto-de-renda__lista, .oportunidades__lista{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .vantagens__botao--cta{
+        justify-content: center;
+    }
+
+    .instrutor__lista--descricao{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .instrutor__lista--icones--inst, .instrutor__lista--icones--linkedin, .editora__lista--icones--inst, .editora__lista--icones--linkedin, .editora__lista--icones--facebook, .editora__lista--icones--tiktok{
+        font-size: 3rem;
+    }
+
+    .oportunidades__lista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+
+    .oportunidades__lista--descricao{
+        padding-top: 0;
+    }
+
+    .oportunidades__lista--imagem{
+        width: 80%;
+    }
+
+    .valores__chamada--introducao{
+        font-size: 18px;
+    }
+
+    .valores__chamada--finalizacao{
+        font-size: 22px;
+    }
+
+    .apresentacao-editora__detalhada--descricao{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .oportunidades__lista--titulo, .oportunidades__lista--descricao{
+        width: 80%;
+    }
+
+    .valores__titulo--principal{
+        font-size: 3rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .valores__chamada--destaque--positivo{
+        font-size: 4rem;
+    }
+
+    .confirmacao-autoridade{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .confirmacao-autoridade-invertido{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .faq__titulo--selecao--icon{
+        height: 40px;
+        width: 40px;
+    }
+
+    .faq__titulo--selecao--text{
+        font-size: 1rem;
+    }
+
+    .rodape__titulo{
+        font-size: 2rem;
+    }
+
+    .rodape__formulario{
+        margin-top: 2rem;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 712px){
+
+    .cabecalho__chamada{
+        font-size: 1.5rem;
+    }
+
+    .cabecalho__imagem{
+        width: 200px;
+    }
+
+    .conteudo-principal__pc--chamada{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .conteudo-principal__pc--texto{
+        font-size: 2rem;
+    }
+
+    .conteudo-principal__pc--cta{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .vantagens__titulo--principal, .instrutor__titulo--principal, .curso-imposto-de-renda__titulo--principal, .oportunidades__titulo--principal, .valores__titulo--principal, .apresentacao-editora__titulo--principal{
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        font-size: 3rem;
+    }
+
+    .vantagens__lista--card{
+        width: calc(50% - 1rem) !important;  
+    }
+
+    .vantagens__lista--imagem{
+        justify-self: center;
+    }
+
+    .instrutor__lista--titulo, .oportunidades__lista--titulo{
+        font-size: 2.5rem;
+    }
+
+    .instrutor__lista--descricao, .oportunidades__lista--descricao{
+        font-size: 2rem;
+    }
+
+    .instrutor__lista--icones--inst, .instrutor__lista--icones--linkedin, .editora__lista--icones--inst, .editora__lista--icones--linkedin, .editora__lista--icones--facebook, .editora__lista--icones--tiktok{
+        font-size: 5rem;
+    }
+
+    .curso-imposto-de-renda__lista--titulo{
+        font-size: 2rem !important;
+    }
+
+    .curso-imposto-de-renda__lista--itens-modulo{
+        font-size: 2rem;
+    }
+
+    .valores__chamada--introducao{
+        font-size: 1.5rem;
+    }
+
+    .valores__chamada--finalizacao{
+        font-size: 2rem;
+    }
+
+    .valores__chamada--destaque{
+        font-size: 3.5rem;
+    }
+
+    .valores__chamada--destaque--positivo{
+        font-size: 4.5rem;
+    }
+
+    .confirmacao-autoridade{
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
+    }
+
+    .confirmacao-autoridade-invertido{
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
+    }
+
+    .confirmacao-autoridade__destaque{
+        font-size: 5rem;
+    }
+
+    .confirmacao-autoridade__destaque-invertido{
+        font-size: 5rem;
+    }
+
+    .confirmacao-autoridade__texto{
+        font-size: 2rem;
+    }
+
+    .apresentacao-editora__detalhada--descricao{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .faq__titulo--destaque{
+        padding-top: 3.5rem;
+        padding-bottom: 3rem;
+        font-size: 3rem;
+    }
+
+    .faq__titulo--selecao--icon{
+        height: 60px;
+        width: 60px;
+    }
+
+    .faq__titulo--selecao--text{
+        font-size: 1.5rem;
+    }
+
+    .faq__detalhado--duvidas-frequentes--item{
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .faq__detalhado--duvidas-frequentes--item--par{
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .faq__detalhado--duvidas-frequentes--item--descricao{
+        padding-top: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .faq__detalhado--duvidas-frequentes--item--titulo{
+        font-size: 2rem;
+    }
+
+    .faq__detalhado--duvidas-frequentes--item--titulo--par{
+        font-size: 2rem;
+    }
+
+    .rodape__titulo{
+        font-size: 2.5rem;
+    }
+
+    .rodape__formulario{
+        font-size: 1.5rem;
+    }
+
+    .rodape__formulario--botao{
+        width: 160px;
+        height: 50px;
+        font-size: 1.5rem !important;
+    }
+
+    .rodape__direitos-autorais{
+        font-size: 12px;
+    }
+
+    .vantagens__lista--card--item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vantagens__lista--card--itens{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 1rem;
+    }
+
+    .vantagens__lista--imagem{
+        width: 80px !important;
+        height: 100px !important;
+    }
+
+    .vantagens__lista--titulo{
+        font-size: 2rem;
+    }
+
+    .vantagens__lista--descricao{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 840px){
+
+    .valores__chamada--introducao{
+        font-size: 2rem;
+    }
+
+    .valores__chamada--finalizacao{
+        font-size: 2.5rem;
+    }
+
+    .valores__chamada--destaque{
+        font-size: 5rem;
+    }
+
+    .valores__chamada--destaque--positivo{
+        font-size: 6rem;
+    }
+
+    .confirmacao-autoridade__destaque{
+        font-size: 6rem;
+    }
+
+    .confirmacao-autoridade__destaque-invertido{
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width: 912px){
+
+    .cabecalho{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .cabecalho__chamada{
+        order: 2;
+    }
+
+    .instrutor__lista--imagem{
+        width: 50% !important;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+    .faq__titulo--destaque{
+        padding-bottom: 5rem;
+    }
+
+    .oportunidade__lista--itens{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .oportunidades__lista{
+        width: calc(33% - 1rem);
+    }
+
+    .oportunidades__lista--imagem{
+        width: 100%;;
+    }
+
+    .oportunidades__lista--titulo{
+        font-size: 1.5rem;
+        width: 100% !important;
+    }
+
+    .oportunidades__lista--descricao{
+        font-size: 1.2rem;
+    }
+}
+
+    @media screen and (min-width: 1120px){
+
+        .conteudo-principal{
+            margin-top: 3rem;
+        }
+
+        .apresentacao-editora__detalhada--banner{
+            display: flex;
+            justify-content: center;
+        }
+
+        .apresentacao-editora__detalhada--banner--imagem{
+            text-align: center;
+        }
+
+        .confirmacao__autoridade{
+            display: flex;
+            flex-direction: row;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            justify-content: space-around;
+        }
+
+        .confirmacao-autoridade{
+            padding-left: 0;
+            padding-right: 0;
+            width: calc(33% - 1rem);
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+        }
+
+        .confirmacao-autoridade-invertido{
+            padding-left: 0;
+            padding-right: 0;
+            width: calc(33% - 1rem);
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+        }
+
+        .rodape__formulario{
+            max-width: 70%;
+            align-self: center !important;
+            display: flex;
+        }
+
+        .instrutor__lista{
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        .instrutor__lista--imagem{
+            width: 30% !important;
+        }
+
+        .instrutor__lista--descricao{
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+
+        .oportunidades__lista--titulo{
+            font-size: 1.75rem;
+        }
+
+        .oportunidades__lista--descricao{
+            font-size: 1.5rem;
+        }
+
+        .rodape__formulario--form{
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        .rodape__formulario--form--itens{
+            width: 80%;
+        }
+
+}
+
+
+@media screen and (min-width: 1240px){
+
+    .cabecalho__imagem{
+        width: 250px;
+        height: 120px;
+    }
+
+    .cabecalho{
+        padding-top: 0.5rem;
+    }
+
+    .conteudo-principal{
+        margin-top: 1.5rem;
+    }
+
+    .cabecalho__chamada{
+        font-size: 1.7rem;
+    }
+
+    .conteudo-principal__pc{
+        row-gap: 0.5rem;
+    }
+
+}
